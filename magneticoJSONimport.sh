@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# HTTP target URL
+# HTTP target URL - CHANGE THIS
 TARGET_URL="http://192.168.1.4:3333/import"
 
 # Default delay in seconds
