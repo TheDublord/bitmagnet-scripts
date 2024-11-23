@@ -14,3 +14,7 @@ This is done to give bitmagnet time to process and classify the batch before mov
 Change the bitmagnet URL at the top of the file, and then:
 
 `./magneticoJSONimport /path/to/folder/with/jsons (--delay=300)`
+
+## AnimeToshoImporter
+
+Edit the file to imports name, and the output folder if you want. Should work by default. Requires `jq` to be installed (apt install jq). It doesnt check for duplicates or anything other than a valid "magnet:" link, and non empty values in all 3 fields. Warning: This has not been tested beyond the 11/22/24 AnimeTosho dump, also its pretty slow so hope you have some extra time on your hands.
